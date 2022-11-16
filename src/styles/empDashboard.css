@@ -1,0 +1,29 @@
+.dashboard {
+    margin-top: 100px;
+    padding: 0px 30px;
+    padding-bottom: 50px;
+}
+
+.dashboard__wrapper {
+    padding: 20px;
+    border-radius: 5px;
+    background: #f9f9f9;
+}
+.dashboard__title {
+    color: var(--heading-color);
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.alignItemsAndJustifyContent {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icon-margin {
+    margin-right: 8px;
+}
+
+.table-head {
+    background-color: #364F6B;
+}

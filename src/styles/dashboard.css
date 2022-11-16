@@ -1,0 +1,185 @@
+.dashboard {
+    margin-top: 80px;
+    padding: 0px 30px;
+    padding-bottom: 50px;
+}
+
+.parent-content {
+    /* overflow: auto; */
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+.main-content {
+    /* display: block; */
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    margin-top: 0;
+    margin-left: 30px;
+}
+
+.dashboard-head {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 8px;
+    margin: 10px;
+    margin-bottom: 0;
+    color: #071E3D;
+}
+
+.notice-head {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Card CSS */
+.heading {
+    text-align: center;
+    font-size: 32px;
+    color: #2d3436;
+    margin: 20px 0 30px;
+}
+
+.card-body {
+    font-family: sans-serif;
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 375px;
+    min-width: 375px;
+    display: inline-flex;
+
+    text-align: center;
+}
+.card {
+    border-radius: 25px;
+    position: relative;
+    padding: 25px 15px;
+    background-color: #cceef5;
+    margin: 50px 0;
+    margin-bottom: 0;
+    height: 230px;
+    box-shadow: 0 2px 5px rgb(41, 83, 88);
+    text-align: left;
+    width: 100%;
+}
+
+.top {
+    border-radius: 25px 25px 0 0;
+    height: 100px;
+    width: 100%;
+    background-color: #333C83;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    padding: 5px;
+    padding-right: 20px;
+}
+
+
+
+.name {
+    font-size: 24px;
+    color: #90E0EF;
+    display: flex;
+    flex: 1;
+    margin: 10% 20px 0;
+}
+
+.card img {
+    margin: 50px 30px 0 0;
+}
+
+.circle-img {
+    border-radius: 50%;
+    border: 7px solid #fff;
+    width: 100px;
+    height: 90px;
+}
+
+.bottom {
+    margin-top: 85px;
+}
+
+.info {
+    margin: 10px 0;
+    color: #071e3d;
+    font-weight: 500;
+}
+
+.app-card-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 100%;
+    /* flex-wrap: wrap; */
+}
+
+.dashButton {
+    position: absolute;
+    bottom: 60px;
+    right: 55px;
+}
+
+@media screen and (min-width: 500px) {
+    /* Center the Modal! */
+    .modal-area {
+        left: 50%;
+        top: 50%;
+        height: auto;
+        transform: translate(-50%, -50%);
+        max-width: 30em;
+        max-height: calc(100% - 1em);
+    }
+}
+
+._modal-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0.5em;
+    line-height: 1;
+    background: #F2F2F2;
+    border: 0;
+    box-shadow: 0;
+    cursor: pointer;
+}
+
+._modal-close-icon {
+    width: 25px;
+    height: 25px;
+    fill: transparent;
+    stroke: black;
+    stroke-linecap: round;
+    stroke-width: 2;
+}
+
+.modal-body {
+    padding-top: 0.25em;
+}
+._hide-visual {
+    border: 0 !important;
+    clip: rect(0 0 0 0) !important;
+    height: 1px !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+    position: absolute !important;
+    width: 1px !important;
+    white-space: nowrap !important;
+}
+
+.scroll-lock {
+    overflow: hidden;
+    margin-right: 17px;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
