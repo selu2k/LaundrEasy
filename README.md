@@ -1,4 +1,4 @@
-#Laundry management solution for college
+Laundry management solution for college
 
 
 # Getting Started with Create React App
